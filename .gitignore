@@ -1,0 +1,9 @@
+# Folders to ignore
+node_modules/
+
+# Environment variables (passwords, keys)
+.env
+
+# System or editor files
+*.log
+*.code-workspace
