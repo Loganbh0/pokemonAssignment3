@@ -4,7 +4,7 @@ const knex = require("knex");
 
 const app = express();
 app.set("view engine", "ejs");
-const port = process.env.PORT || 3000;
+const port = process.env.PORT;
 
 const db = knex({
     client: "pg",
